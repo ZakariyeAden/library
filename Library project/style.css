@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ************** */
+/* header *********/
+/* ************** */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-primary{
+  font-size: 3rem;
+  font-weight: 400;
+}
+.icon{
+  font-size: 4rem;
+  margin: 0 2rem 0 0 ;
+  cursor: pointer;
+}
+/* ************** */
+/* form *********/
+/* ************** */
+.heading-secondary{
+  font-weight: 700;
+  font-size: 2rem;
+}
+aside .heading-secondary{
+  margin-top: 2rem;
+}
+form{
+  margin: 0 auto;
+  padding: 4rem 8rem;
+}
+
+form .form-inputs,.form-selection{
+  /* max-width: 1rem; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+} 
+.form-inputs input, .form-selection select{
+  display: inline-block;
+  padding: 0.3rem;
+  border: 2px solid rgb(4, 4, 255);;
+  border-radius: 5px;
+  outline: none;
+  text-decoration: none;
+  color: rgb(4, 4, 255);
+}
+.form-inputs label, .form-selection label{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* ************** */
+/* table *********/
+/* ************** */
+table{
+  width: 500px;
+  margin: 20px auto;
+}
+
+table th{  
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(4, 4, 255);
+}
+.container{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+/* ************** */
+/* button *********/
+/* ************** */
+.delete{
+  border: none;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: red;
+  color: #fff;
+}
+.delete:hover,
+.delete:active
+{
+  background-color: rgba(255, 0, 0, 0.534);
+}
